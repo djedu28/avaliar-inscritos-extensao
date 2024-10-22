@@ -1,3 +1,8 @@
+// Autor: Luis Eduardo Silva dos Santos
+// repositório: https://github.com/djedu28/
+// LICENSE: MIT
+// Ultima atualização em: 21/10/2024
+
 // Variáveis globais
 var newTab = null;
 
