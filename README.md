@@ -40,7 +40,7 @@ e no lugar do url coloca o script começando por javascript:function(){ ... }()
 aqui o roteiro que tem lá no link que mandei no inicio do dia com esse hack de atalho
 
 ```js
-javascript:(function() { alert("ativado"); var imported = document.createElement('script'); imported.src = '<https://djedu28.github.io/avaliar-inscritos-extensao/dj-script-documentos-iframe.js>'; document.head.appendChild(imported);})()
+javascript:(function() { alert("ativado"); var imported = document.createElement('script'); imported.src = 'https://djedu28.github.io/avaliar-inscritos-extensao/dj-script-documentos-iframe.js'; document.head.appendChild(imported);})()
 ```
 
 ## Recomendação
