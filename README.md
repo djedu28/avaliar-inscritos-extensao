@@ -34,4 +34,5 @@ document.head.appendChild(imported);
 Para quem sabe programar, é recomendado ler o script antes de colar, para se certificar da segurança do mesmo antes de executar.
 
 ## Se foi util, deixa a 🌟 (agradeço)
+
 🌟 <https://github.com/djedu28/avaliar-inscritos-extensao>

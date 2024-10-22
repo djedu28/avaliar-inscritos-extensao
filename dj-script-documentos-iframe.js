@@ -52,6 +52,10 @@ function html_iframe(url, nome=""){
             <img src="https://avatars.githubusercontent.com/u/43933482?v=4" style="width: 150px;border: ;border-radius: 50%;">
             <h3>Extensão feira por <a href="https://github.com/djedu28">Eduardo Santos</a></h3>
         </div>
+        <div>
+            <h2 id="se-foi-util-deixa-a--agradeço"> Se foi util, deixa a 🌟 (agradeço) </h2>
+            <p>🌟 <a href="https://github.com/djedu28/avaliar-inscritos-extensao">https://github.com/djedu28/avaliar-inscritos-extensao</a></p>
+        </div>
     `
     if (url){
         title = `Documento de ${nome}`
@@ -66,15 +70,19 @@ function html_iframe(url, nome=""){
             <title>${title}</title>
             <style>
                 html { overflow: ${!!url ? "hidden;" : "auto" }; background: #1a1919;}
-                a:visited { color: blue; }
+                a:visited { color: #0366d6; }
+                a { color: #0366d6; text-decoration: none; font-size: 16px;}
                 @media (prefers-color-scheme: light ) {
                     html { background: #FFF; }
                 }
-                body { font-family: Arial, sans-serif; margin: 0px; padding: 0px; color: orange; }
+                body { 
+                    font-family: Arial, sans-serif; 
+                    margin: 0px; padding: 0px; color: orange; line-height: 1.5; word-wrap: break-word; 
+                }
                 h2 { color: orange; display: flex; justify-content: center; margin: 0; padding: 10px;}
                 iframe { width: 100%; height: 90vh; border: none; }
-                div { padding: 20px; }
-                #autor {
+                div { padding: 20px; text-align: center;}
+                section, #autor {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -82,9 +90,10 @@ function html_iframe(url, nome=""){
                     img {width: 150px; border: ; border-radius: 50%;}
                 }
                 p {
-                    width: 300px;
+                    width: 400px;
+                    margin: 0 auto;
                     padding: 10px;
-                    font-weight: 900;
+                    /*font-weight: 700;*/
                 }
             </style>
         </head>
